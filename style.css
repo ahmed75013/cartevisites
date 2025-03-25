@@ -32,10 +32,11 @@ body{
 
 .vcard{
     width: 450px;
-    height: 690px;
+    height: 950px;
     background: var(--front_color);
     border-radius: 8px;
     box-shadow: 5px 0px 20px rgba(0,0,0,39%);
+
 }
 
 .header{
