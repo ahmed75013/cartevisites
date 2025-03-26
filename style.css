@@ -1,6 +1,6 @@
 :root{
     --back_color: #ffffff;
-     --front_color: #060606;
+    --front_color: #060606;
     --purple: #eee;
     --pink: #ffffff;
     --blue: #ffffff;
@@ -18,14 +18,18 @@ h5{
 
 body{
     background: var(--back_color);
-    width: 159vw;
-    height: 163vh;
+    /* width: 100vw;
+    height: 100vh; */
+    width: auto;
+    height: auto;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
-    transform: scale(3.9); /* Agrandit l'image de 150% */
+
+    
+    
    
     
 }
@@ -33,10 +37,11 @@ body{
 .vcard{
     width: 450px;
     height: 950px;
+    /* width: auto;
+    height: auto; */
     background: var(--front_color);
     border-radius: 8px;
     box-shadow: 5px 0px 20px rgba(0,0,0,39%);
-
 }
 
 .header{
@@ -177,4 +182,11 @@ body{
 
 
   
+ 
+
+
+
+  
+ 
+
  
