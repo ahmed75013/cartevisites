@@ -1,6 +1,6 @@
 :root{
     --back_color: #ffffff;
-    --front_color: #060606;
+    --front_color: #151414;
     --purple: #eee;
     --pink: #ffffff;
     --blue: #ffffff;
@@ -174,11 +174,17 @@ body{
     color: white;
     font-weight: bolder;
     transition: all .7s;
+ 
+  
 }
 .button:hover{
     box-shadow: 0px 8px 20px rgba(0,0,0,39%);
 }
 
+
+
+  
+ 
 
 
   
